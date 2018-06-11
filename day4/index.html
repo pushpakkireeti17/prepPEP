@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<script type="text/javascript">
+var a=prompt("Enter Your marks");
+function userData(a)
+{
+if(a>80 && a<=100)
+  {
+    document.write("You got A+ grade");
+  }
+else if(a<=80 && a>=76)
+  {
+    document.write("You got A grade");
+  }
+else if(a<=75 && a>=71)
+  {
+    document.write("You got B+ grade");
+  }
+else if(a<=70 && a>=60)
+  {
+    document.write("You got B grade");
+  }
+else if(a<60)
+  {
+    document.write("You got C grade");
+  }
+else if(a<0 || a>100)
+  {
+    document.write("INVALID INPUT");
+  }
+}
+userData(a);
+userData(a,b);
+</script>
+</body>
+</html>
